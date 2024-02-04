@@ -7,7 +7,7 @@ int main() {
 
   vector<int> res;
 
-  for (int i = 0; n > 0; i++) {
+  while (n > 0) {
     res.push_back(n % 2);
     n /= 2;
   }
