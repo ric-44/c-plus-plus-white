@@ -44,3 +44,14 @@
 | abacaba, aba                   | 5                              |  abacaba                       |
 | abacaba, aba                   | 2                              |  abacaba, aba                  |
 | weew, bro, code                | 4                              |  weew                          |
+
+## Задание 4: Максимизатор
+
+Напишите функцию `UpdateIfGreater`, которая принимает два целочисленных аргумента: `first` и `second`. Если `first` оказался больше `second`, Ваша функция должна записывать в `second` значение параметра `first`. При этом изменение параметра `second` должно быть видно на вызывающей стороне.
+
+```cpp
+int a = 4;
+int b = 2;
+UpdateIfGreater(a, b);
+// b должно стать равно 4
+```
