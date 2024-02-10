@@ -323,6 +323,7 @@ USSR/Moscow
 Ввод
 
 ```console
+24
 RENAME FakeCountry FarFarAway
 ABOUT FarFarAway
 DUMP
