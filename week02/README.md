@@ -410,3 +410,38 @@ second
 ```console
 3
 ```
+
+## Задание 16: Множество значений словаря
+
+Напишите функцию `BuildMapValuesSet`, принимающую на вход словарь `map<int, string>` и возвращающую множество значений этого словаря:
+
+```cpp
+set<string> BuildMapValuesSet(const map<int, string>& m) {
+  // ...
+}
+```
+
+### Пример к заданию 16
+
+Код
+
+```cpp
+set<string> values = BuildMapValuesSet({
+    {1, "odd"},
+    {2, "even"},
+    {3, "odd"},
+    {4, "even"},
+    {5, "odd"}
+});
+
+for (const string& value : values) {
+  cout << value << endl;
+}
+```
+
+Вывод
+
+```cpp
+even
+odd
+```
